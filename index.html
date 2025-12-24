@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muath Ashour | Backend Developer</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="icon" href="Image/Icon-Profile.svg" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!--header site -->
+    <header>
+      <div class="logo">
+        <li><a href="#home" style="--i: 1">MUATH.</a></li>
+      </div>
+      <ul class="navlist">
+        <li><a href="#home" style="--i: 1">Home</a></li>
+        <li><a href="#about" style="--i: 1"> About</a></li>
+        <li><a href="#skills" style="--i: 1">Skills</a></li>
+        <li><a href="#projects " style="--i: 1">Projects</a></li>
+        <li><a href="#education " style="--i: 1">Education</a></li>
+        <li><a href="#contact" style="--i: 1"> Contact</a></li>
+      </ul>
+      <div id="menu-icon" class="bx bx-menu"></div>
+    </header>
+
+    <!--home section ------------------------------------------------------------->
+    <section id="home" class="home">
+      <div class="home-content scroll-scale">
+        <h1>Hi, I'm Muath Ashour</h1>
+        <div class="change-text">
+          <h3>I'm a</h3>
+          <h3>
+            <span class="word">.NET&nbsp;Backend&nbsp;Developer</span>
+          </h3>
+        </div>
+
+        <p
+          style="
+            max-width: 600px;
+            margin: 20px auto;
+            font-size: 1.1rem;
+            color: #a7a7a7;
+            padding: 5px;
+          "
+        >
+          I build robust, scalable backend solutions using ASP.NET Core, SQL
+          Server, and modern design principles, focusing on clean, maintainable
+          code and efficient problem-solving.
+        </p>
+
+        <div class="btn-box">
+          <a href="File/MUATH_MOHAMMAD_CV (1).pdf" download class="btn"
+            >Download CV</a
+          >
+        </div>
+
+        <div class="social-icon">
+          <a href="mailto:devmoazmohammad@gmail.com"
+            ><i class="bx bxl-gmail"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/moaz-mohammad-010bab310/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/Moaz-Ash0ur"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="home-image scroll-scale">
+        <div class="img-about scroll-scale">
+          <img src="Image/muath-ashour.jpg" alt="My Photo" class="about-img" />
+        </div>
+      </div>
+
+      <button id="scrollTopBtn" title="Top">
+        <i class="fa-solid fa-angle-up"></i>
+      </button>
+    </section>
+
+    <!--about section ------------------------------------------------------------->
+    <section id="about" class="about">
+      <div class="img-box">
+        <img src="Image/Home.png" alt="" />
+      </div>
+
+      <div class="about-content scroll-scale">
+        <h2>About Me</h2>
+
+        <p>
+          I'm a passionate <strong>Software Engineer</strong> and
+          <strong>.NET Developer</strong> specializing in building
+          <strong>scalable APIs</strong> and robust backends using
+          <strong>C#, ASP.NET Core, EF Core</strong>, and design patterns
+          like <b style="color: rgb(80, 170, 255);">Factory , Strategy , Builder and CQRS.</b> 
+        </p>
+
+        <p>
+          I focus on writing
+          <strong>clean, maintainable, and secure code</strong>
+          while optimizing performance to deliver real business value.
+        </p>
+
+        <p>
+          My work involves building RESTful APIs, integrating databases with
+          Entity Framework Core, and applying best practices such as caching , logging ,
+          middleware, and clean architecture.
+        </p>
+
+     
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2 class="section-title">Technical Skills</h2>
+
+      <div class="skills-container">
+        <!-- Card 1 -->
+        <div class="skill-card">
+          <div class="card-header">
+            <i class="bx bx-server"></i>
+            <h3>Backend Development</h3>
+          </div>
+          <div class="card-tags">
+            <span>C#</span>
+            <span>OOP</span>
+            <span>.NET Core</span>
+            <span>.NET MVC</span>
+            <span>.NET Web API</span>
+            <span>.NET Framework</span>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="skill-card">
+          <div class="card-header">
+            <i class="bx bx-data"></i>
+            <h3>Database & ORM</h3>
+          </div>
+          <div class="card-tags">
+            <span>SQL Server</span>
+            <span>LINQ</span>
+            <span>Entity Framework</span>
+            <span>EF Core</span>
+            <span>T-SQL</span>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="skill-card">
+          <div class="card-header">
+            <i class="bx bx-code-alt"></i>
+            <h3>System Design & Architecture</h3>
+          </div>
+          <div class="card-tags">
+            <span>Clean Architecture</span>
+            <span>SOLID Principles</span>
+            <span>Design Patterns</span>
+            <span>Result Patterns</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="main-text">
+        <h2 class="heading">Latest Projects</h2>
+        <span
+          >Showcasing my journey in building end-to-end applications, from
+          architecting robust APIs to crafting seamless user experiences.</span
+        >
+      </div>
+
+      <div class="filter-buttons">
+        <button class="btn active" data-filter="all">All</button>
+        <button class="btn" data-filter="backend">Backend</button>
+        <button class="btn" data-filter="fullstack">FullStack</button>
+      </div>
+
+      <div class="project-container">
+
+        <div class="project-box" data-category="backend">
+          <div class="project-img">
+            <img src="Image/MechanicShopApi.png" alt="Project Name" />
+          </div>
+          <div class="project-content">
+            <h3>Mechanic Shop</h3>
+            <p>
+              A Mechanic Shop management system designed to handle automotive
+              repair shop operations efficiently. The system manages customers,
+              vehicles, repair tasks, work orders, and employees.
+            </p>
+
+            <div class="tags">
+              <span class="tag">.net core RESTful Api</span>
+              <span class="tag">Clean Architecture</span>
+              <span class="tag">Mediator</span>
+              <span class="tag">CQRS & Result Pattern</span>
+              <span class="tag"
+                >Secure authentication using JWT with custom authorization
+                policies</span
+              >
+              <span class="tag">Background Services and Real Time Update</span>
+              <span class="tag">xUnit ,Subcutaneous and Integration Tests</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/Moaz-Ash0ur/MechanicShopWorkshop.API.git" class="link-btn source">Source</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-box" data-category="backend">
+          <div class="project-img">
+            <img src="Image/InventoryApi.png" alt="Project Name" />
+          </div>
+          <div class="project-content">
+            <h3>Inventory Management System</h3>
+            <p>
+              A backend Inventory Management designed to help
+              businesses efficiently manage products, stock levels, purchases,
+              and sales. It ensures accurate tracking and role-based operations
+              for seamless business management.
+            </p>
+
+            <div class="tags">
+              <div class="tags">
+                <span class="tag">.net core RESTful Api</span>
+                <span class="tag">N-Tier</span>
+                <span class="tag">EF Core & Stored Procedure</span>
+                <span class="tag"
+                  >Applied Repository and Unit of Work Design Pattern</span
+                >
+              </div>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/Moaz-Ash0ur/Inventory-Management-API.git" class="link-btn source">Source</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-box" data-category="fullstack">
+          <div class="project-img">
+            <img src="Image/Shipping.png" alt="Project Name" />
+          </div>
+          <div class="project-content">
+            <h3>Shipping System</h3>
+            <p>
+              A comprehensive system for managing shipments, tracking statuses,
+              and handling users & subscriptions. Includes an admin dashboard
+              for multiple roles (Admin, Reviewer, Operation Manager) to manage
+              shipment types, statuses, and operations.
+            </p>
+
+            <div class="tags">
+              <span class="tag">ASP.NET CORE( MVC | API )</span>
+              <span class="tag">N-Tier</span>
+              <span class="tag">EF Core & Stored Procedure</span>
+              <span class="tag">Factory and Strategy Design Pattern</span>
+              <span class="tag">Integrated PayPal for Payment</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/Moaz-Ash0ur/Shipping.git" class="link-btn source">Source</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-box" data-category="fullstack">
+          <div class="project-img">
+            <img src="Image/ecommerce.png" alt="Project Name" />
+          </div>
+          <div class="project-content">
+            <h3>E-Commerce Website (MVC)</h3>
+            <p>
+              A full-featured online store where users can browse products, add
+              items to cart, place orders and Includes an admin panel to manage
+              products, orders, and users.
+            </p>
+
+            <div class="tags">
+              <span class="tag">ASP.NET Core MVC</span>
+              <span class="tag">Fetch Api & Ajax Call</span>
+              <span class="tag">JavaScript</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/Moaz-Ash0ur/E-Commerce-WebApp-MVC.git" class="link-btn source">Source</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience-education" id="education">
+      <div class="main-text">
+        <h2 class="heading">Training & Education</h2>
+        <span class="neon-subtitle">
+          My professional journey and educational background that have shaped my
+          skills and expertise,
+          <b style="color: var(--hover-color)">
+            <br />with a specialized focus on backend architecture and scalable
+            systems.</b
+          >
+        </span>
+      </div>
+
+      <div class="container">
+        <div class="column">
+          <h3 class="title">
+            <i class="bx bxs-briefcase"></i> Training Course
+          </h3>
+          <div class="box">
+            <div class="content">
+              <h4>.Net Backend Developer</h4>
+              <p class="company">IT-Legend</p>
+              <div class="details">
+                <span><i class="bx bxs-calendar"></i> 07/2025 - 09/2025</span>
+              </div>
+              <ul>
+                <li>
+                  Completed a practical training course in Backend Development
+                  using .net core
+                </li>
+                <li>
+                  Developed a comprehensive <b>Shipping Management System</b>,
+                  implementing real-world logic for
+                  <b>Shipment Status tracking</b> and I Completed features
+                  <b>User Subscription</b>
+                </li>
+                <li>
+                  Applied <b>N-Tier Architecture</b> using <b>.NET</b> to ensure
+                  a clean separation between business logic, data access, and
+                  the presentation layer.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <h3 class="title"><i class="bx bxs-graduation"></i> Education</h3>
+          <div class="box">
+            <div class="content">
+              <h4>Bachelor of Mobile Computing & Smart Devices Applications</h4>
+              <p class="university">Islamic University of Gaza</p>
+              <div class="details">
+                <span
+                  ><i class="bx bxs-location-plus"></i> Gaza, Palestine</span
+                >
+                <span
+                  ><i class="bx bxs-calendar"></i> 21/08/2022 - Present</span
+                >
+              </div>
+              <ul>
+                <li>
+                  Specializing in <b>Backend Engineering</b> and System Design,
+                  with a deep dive into <b>Data Structures</b> and
+                  <b>Advanced Algorithms</b> for efficient problem solving.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--contact section ------------------------------------------------------------->
+    <section id="contact" class="contact">
+      <div class="main-text scroll-scale show-items">
+        <span>Let's Connect</span>
+        <h2>Contact Information</h2>
+        <p class="contact-intro">
+          I'm always open to collaborations, freelance projects, or just a
+          friendly chat. Feel free to reach out anytime!
+        </p>
+      </div>
+
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="bx bx-map"></i>
+          <span>Cairo, Egypt</span>
+        </div>
+
+        <div class="contact-item">
+          <i class="bx bx-envelope"></i>
+          <a href="mailto:devmoazmohammad@gmail.com"
+            >devmoazmohammad@gmail.com</a
+          >
+        </div>
+
+        <div class="contact-item">
+          <i class="bx bxl-whatsapp"></i>
+          <a href="https://wa.me/201050429118" target="_blank"
+            >+20 10xx-xx-xx-xx</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!--footer website ------------------------------------------------------------->
+
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Section 1: Profile -->
+        <div class="footer-profile">
+          <div class="footer-profile-text">
+            <h3><span>M</span>uath <span>M</span>ohammed</h3>
+            <p>Backend Developer specializing in ASP.NET Core (MVC | API).</p>
+          </div>
+        </div>
+
+        <!-- Section 2: Navigation -->
+        <div class="footer-nav">
+          <h4>Navigation</h4>
+          <div class="nav-columns">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#projects">Projects</a></li>
+            </ul>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Section 3: Connect -->
+        <div class="footer-connect">
+          <h4>Connect</h4>
+          <div class="social-icons">
+            <a href="https://github.com/Moaz-Ash0ur" target="_blank"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/moaz-mohammad-010bab310/"
+              target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="mailto:devmoazmohammad@gmail.com"
+              ><i class="bx bxl-gmail"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Section -->
+      <div class="footer-bottom">
+        <p>© 2025 Moaz Mohammed. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <span>||</span>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="Script.js" defer></script>
+  </body>
+</html>
